@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+/*nav-bar*/
+.nav-bar{
+    height: 80px;
+    width: 100%;
+    background-color:#ffffff;
+    color: #282c3f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+    letter-spacing: .3px;
+    font-weight: bold;
+    border-bottom: 1px solid #b6b1b1;
+}
+
+/*logo
+.nav-logo{
+    margin-left: 4%;
+    height: 80px;
+    width: 53px;
+}*/
+.logo{
+    margin-left:51px ;
+    height: 36px;
+    width: 53px;
+    background-image: url("images/myntra-logo-png.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+/*list-bar*/
+.list-bar{
+    width: 500px;
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+a{
+    margin-left: 4%;
+    color: #282c3f;
+    font-size: 14px;
+    letter-spacing: .3px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 28px 0px;
+    border-bottom: 2px solid #ffffff;
+}
+.sup{
+    color: #ff3f6c;
+    font-size: 10px;
+    width: 20px;
+    height: 13px;
+}
+.list-bar a:hover{
+    border-bottom: 2px solid #f54e77 ;
+}
+
+/*search*/
+.search-bar{ 
+    height:40px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    }
+.search-icon{ 
+    box-sizing: content-box;
+     height: 20px; 
+     padding: 10px; 
+     background-color: #f5f5f6; 
+     color: #282c3f; 
+     font-weight: 300; 
+     border-top-left-radius: 4px;
+     border-bottom-left-radius: 4px;
+    }
+input{
+    display: flex;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+    height: 40px;
+    flex-grow: 1;              
+    font-size: 14px;
+    color: #696e79;
+    background-color: #f5f5f6;
+    border: 0;
+    outline: none;        
+}
+
+
+/*last three icons*/
+.action-bar {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.action-icon {
+    font-size: 26px;
+    color: #282c3f;   
+}
+
+.action-name {
+    font-size: 12px;
+    font-weight: 500;
+    color: #282c3f;
+    margin-top: 4px;
+}
+.action-container:hover .action-icon,
+.action-container:hover .action-name {
+    color: #ff3f6c; 
+}
+/**main-section(banner-image)**/
+.banner-container{
+    margin: 40px 0px;
+}
+.banner-image{
+    width: 100%;
+}
+.category-heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+/**mid part**/
+.category-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale-item{
+    width: 250px;
+}
+.footer_container {
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column h3 {
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.footer_column a {
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
+.name{
+    color: #f54e77 ;
+    font-family: cursive;
+}
